@@ -1,12 +1,7 @@
 import React from "react";
 import ImageHelper from "./helper/ImageHelper";
 
-const Card = () => ({
-    product,
-    addtoCart = true,
-    removeFromCart = false
-}) => {
-
+const Card = ({product,addtoCart = true,removeFromCart = false}) =>{
     return (
       <div className="card text-white bg-dark border border-info ">
         <div className="card-header lead">A photo from pexels</div>
